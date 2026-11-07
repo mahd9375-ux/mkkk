@@ -1,0 +1,32 @@
+{
+ "packs": [
+  {
+   "file": "arabic-3-1.json",
+   "version": "1c674554feb6"
+  },
+  {
+   "file": "biology-3.json",
+   "version": "8bbeb2b6a2c0"
+  },
+  {
+   "file": "physics-3.json",
+   "version": "3fee5a2b7b0e"
+  },
+  {
+   "file": "chemistry-3.json",
+   "version": "a7cbb047b8cb"
+  },
+  {
+   "file": "math-3.json",
+   "version": "eac7a6c82d29"
+  },
+  {
+   "file": "social-3.json",
+   "version": "2767e4bcca42"
+  },
+  {
+   "file": "wizari-taabi-2026.json",
+   "version": "471b14fe569a"
+  }
+ ]
+}

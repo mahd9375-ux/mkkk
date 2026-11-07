@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>تحضيري</title>
+  <meta name="description" content="تحضيري: نظّم تحضيرك اليومي للثالث المتوسط العراقي، ادرس ملخصات صفحات كتابك، واختبر نفسك فيما درسته.">
+  <meta name="theme-color" content="#f6f4ef">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&family=Noto+Sans+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+  <script>
+    // تطبيق المظهر قبل الرسم لتجنب الوميض
+    try {
+      var t = localStorage.getItem('tahdiri-theme') || 'system';
+      var m = matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.dataset.theme = (t === 'dark' || (t === 'system' && m)) ? 'dark' : 'light';
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <noscript>يحتاج «تحضيري» إلى تفعيل JavaScript.</noscript>
+  <script type="module" src="dist/main.js"></script>
+</body>
+</html>

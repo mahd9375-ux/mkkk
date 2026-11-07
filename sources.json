@@ -1,0 +1,554 @@
+{
+ "_comment": "سجل المصادر الحقيقي. كل حقل يعكس ما تم فعلًا في بيئة التطوير بتاريخ الوصول. لا تُعدَّل الحالات إلى 'downloaded' أو 'verified' إلا بعد تنفيذ العملية فعلًا.",
+ "generatedAt": "2026-10-10",
+ "environmentNote": "بيئة التطوير التي بُني فيها المشروع تمنع تنزيل الملفات من الإنترنت (الوكيل يرفض الاتصال بـ manahj.edu.iq وغيره). أداة الجلب النصية لم تتمكن أيضًا من فتح manahj.edu.iq. لذلك كل الكتب بحالة 'not_downloaded'. الاستيراد يتم من داخل التطبيق في متصفح المستخدم.",
+ "curriculum": {
+  "grade": "الثالث المتوسط",
+  "country": "العراق",
+  "targetYear": "2025-2026",
+  "subjects": [
+   {
+    "id": "islamic",
+    "name": "التربية الإسلامية",
+    "inMinisterialExam": true,
+    "evidence": "جدول امتحانات الدور الأول 2026 كما نشرته مدونة amsebehm2017.com (مصدر ثانوي)"
+   },
+   {
+    "id": "arabic",
+    "name": "اللغة العربية",
+    "inMinisterialExam": true,
+    "evidence": "جدول امتحانات 2026 (مصدر ثانوي)"
+   },
+   {
+    "id": "english",
+    "name": "اللغة الإنكليزية",
+    "inMinisterialExam": true,
+    "evidence": "جدول امتحانات 2026 (مصدر ثانوي)"
+   },
+   {
+    "id": "math",
+    "name": "الرياضيات",
+    "inMinisterialExam": true,
+    "evidence": "جدول امتحانات 2026 (مصدر ثانوي)"
+   },
+   {
+    "id": "physics",
+    "name": "الفيزياء",
+    "inMinisterialExam": true,
+    "evidence": "جدول امتحانات 2026 (مصدر ثانوي)"
+   },
+   {
+    "id": "chemistry",
+    "name": "الكيمياء",
+    "inMinisterialExam": true,
+    "evidence": "جدول امتحانات 2026 (مصدر ثانوي)"
+   },
+   {
+    "id": "biology",
+    "name": "الأحياء",
+    "inMinisterialExam": true,
+    "evidence": "جدول امتحانات 2026 يسمّي المادة «الإنسان وصحته» (مصدر ثانوي). عنوان الكتاب الرسمي لم يُتحقق منه من ملف الكتاب نفسه."
+   },
+   {
+    "id": "social",
+    "name": "الاجتماعيات",
+    "inMinisterialExam": true,
+    "evidence": "جدول امتحانات 2026 (مصدر ثانوي)"
+   },
+   {
+    "id": "french",
+    "name": "اللغة الفرنسية",
+    "inMinisterialExam": true,
+    "evidence": "جدول 2026 (مصدر ثانوي) يذكرها في يوم امتحان اللغات حسب نظام الدراسة. اعتمادها لجميع المدارس غير مؤكد.",
+    "needsVerification": true
+   },
+   {
+    "id": "computer",
+    "name": "الحاسوب",
+    "inMinisterialExam": false,
+    "evidence": "مدرج ضمن كتب الثالث المتوسط في قائمة 2023-2024 التي تنقل روابط manahj.edu.iq (مصدر ثانوي). غير مدرج في جدول الامتحان الوزاري.",
+    "needsVerification": true
+   }
+  ],
+  "tracksNote": "يوجد مسار «المتميزين» بكتب مستقلة للرياضيات والأحياء والكيمياء والفيزياء (iraqiskills.com). التطبيق يفصل المسار في بيانات الكتاب (track).",
+  "reductions2026": {
+   "status": "unverified",
+   "note": "مدونة amsebehm2017.com نشرت قائمة حذوفات 2026 وتنصح بنفسها بالتحقق من القنوات الرسمية. لم تُدرج في التطبيق كحقيقة.",
+   "url": "https://www.amsebehm2017.com/2026/04/blog-post_08.html"
+  }
+ },
+ "books": [
+  {
+   "id": "b-islamic",
+   "subjectId": "islamic",
+   "title": "التربية الإسلامية - الثالث المتوسط",
+   "track": "عام",
+   "editionClaimed": "طبعة 2023 (حسب مصدر ثانوي)",
+   "url": "https://manahj.edu.iq/upload/upfile/ar/1429.pdf",
+   "mirror": {
+    "url": "https://drive.google.com/file/d/1yeSYWF_yBS5gZ_VXCyaTJAx9x5Bh3wcp/view?usp=sharing",
+    "via": "https://iqeducational.com/كتب-الثالث-متوسط/",
+    "claimedEdition": "المعتمد لسنة 2024 – 2025 (ادعاء الموقع)",
+    "status": "unverified_third_party",
+    "note": "رفعها طرف ثالث على Google Drive؛ يجب مطابقة بصمة الملف أو صفحة الطبعة مع النسخة الرسمية."
+   }
+  },
+  {
+   "id": "b-arabic-1",
+   "subjectId": "arabic",
+   "title": "اللغة العربية ج1 - الثالث المتوسط",
+   "track": "عام",
+   "editionClaimed": "طبعة 2023 (حسب مصدر ثانوي)",
+   "url": "https://manahj.edu.iq/upload/upfile/ar/1430.pdf",
+   "mirror": {
+    "url": "https://drive.google.com/file/d/1hbpIyL8XA_YcpREUuTmlM-RQotqthMKz/view?usp=sharing",
+    "via": "https://iqeducational.com/كتب-الثالث-متوسط/",
+    "claimedEdition": "المعتمد لسنة 2024 – 2025 (ادعاء الموقع)",
+    "status": "unverified_third_party",
+    "note": "رفعها طرف ثالث على Google Drive؛ يجب مطابقة بصمة الملف أو صفحة الطبعة مع النسخة الرسمية."
+   }
+  },
+  {
+   "id": "b-arabic-2",
+   "subjectId": "arabic",
+   "title": "اللغة العربية ج2 - الثالث المتوسط",
+   "track": "عام",
+   "editionClaimed": "طبعة 2023 (حسب مصدر ثانوي)",
+   "url": "https://manahj.edu.iq/upload/upfile/ar/1431.pdf",
+   "mirror": {
+    "url": "https://drive.google.com/file/d/16BoZ5_cv1MgsSmBMkS0qtbxajqKveUtE/view?usp=sharing",
+    "via": "https://iqeducational.com/كتب-الثالث-متوسط/",
+    "claimedEdition": "المعتمد لسنة 2024 – 2025 (ادعاء الموقع)",
+    "status": "unverified_third_party",
+    "note": "رفعها طرف ثالث على Google Drive؛ يجب مطابقة بصمة الملف أو صفحة الطبعة مع النسخة الرسمية."
+   }
+  },
+  {
+   "id": "b-math",
+   "subjectId": "math",
+   "title": "الرياضيات - الثالث المتوسط",
+   "track": "عام",
+   "editionClaimed": "طبعة 2023 (حسب مصدر ثانوي)",
+   "url": "https://manahj.edu.iq/upload/upfile/ar/1432.pdf",
+   "mirror": {
+    "url": "https://drive.google.com/file/d/1z8RujKVZPM7cCZgz4hu1vHiMUnQikHUM/view?usp=sharing",
+    "via": "https://iqeducational.com/كتب-الثالث-متوسط/",
+    "claimedEdition": "المعتمد لسنة 2024 – 2025 (ادعاء الموقع)",
+    "status": "unverified_third_party",
+    "note": "رفعها طرف ثالث على Google Drive؛ يجب مطابقة بصمة الملف أو صفحة الطبعة مع النسخة الرسمية."
+   }
+  },
+  {
+   "id": "b-physics",
+   "subjectId": "physics",
+   "title": "الفيزياء - الثالث المتوسط",
+   "track": "عام",
+   "editionClaimed": "طبعة 2023 (حسب مصدر ثانوي)",
+   "url": "https://manahj.edu.iq/upload/upfile/ar/1433.pdf",
+   "mirror": {
+    "url": "https://drive.google.com/file/d/1meu5_pAjObDOYJRomppycRWWsVL3uvBz/view?usp=sharing",
+    "via": "https://iqeducational.com/كتب-الثالث-متوسط/",
+    "claimedEdition": "المعتمد لسنة 2024 – 2025 (ادعاء الموقع)",
+    "status": "unverified_third_party",
+    "note": "رفعها طرف ثالث على Google Drive؛ يجب مطابقة بصمة الملف أو صفحة الطبعة مع النسخة الرسمية."
+   }
+  },
+  {
+   "id": "b-biology",
+   "subjectId": "biology",
+   "title": "الأحياء - الثالث المتوسط",
+   "track": "عام",
+   "editionClaimed": "طبعة 2023 (حسب مصدر ثانوي)",
+   "url": "https://manahj.edu.iq/upload/upfile/ar/1461.pdf",
+   "mirror": {
+    "url": "https://drive.google.com/file/d/1G38_vFLP0qg0sTQYbiPj-DaeH4tiSgfP/view?usp=sharing",
+    "via": "https://iqeducational.com/كتب-الثالث-متوسط/",
+    "claimedEdition": "المعتمد لسنة 2024 – 2025 (ادعاء الموقع)",
+    "status": "unverified_third_party",
+    "note": "رفعها طرف ثالث على Google Drive؛ يجب مطابقة بصمة الملف أو صفحة الطبعة مع النسخة الرسمية."
+   }
+  },
+  {
+   "id": "b-social",
+   "subjectId": "social",
+   "title": "الاجتماعيات - الثالث المتوسط",
+   "track": "عام",
+   "editionClaimed": "طبعة 2023 (حسب مصدر ثانوي)",
+   "url": "https://manahj.edu.iq/upload/upfile/ar/1428.pdf",
+   "mirror": {
+    "url": "https://drive.google.com/file/d/14axM5Sn8kjnfYIiSnmLX8riLcN8NmErW/view?usp=sharing",
+    "via": "https://iqeducational.com/كتب-الثالث-متوسط/",
+    "claimedEdition": "المعتمد لسنة 2024 – 2025 (ادعاء الموقع)",
+    "status": "unverified_third_party",
+    "note": "رفعها طرف ثالث على Google Drive؛ يجب مطابقة بصمة الملف أو صفحة الطبعة مع النسخة الرسمية."
+   }
+  },
+  {
+   "id": "b-chemistry",
+   "subjectId": "chemistry",
+   "title": "الكيمياء - الثالث المتوسط",
+   "track": "عام",
+   "editionClaimed": "طبعة 2023 (حسب مصدر ثانوي)",
+   "url": "https://manahj.edu.iq/upload/upfile/ar/1536.pdf",
+   "mirror": {
+    "url": "https://drive.google.com/file/d/1fKNt9y9p-ULax05rdzL5PtlGrSeZVRQX/view?usp=sharing",
+    "via": "https://iqeducational.com/كتب-الثالث-متوسط/",
+    "claimedEdition": "المعتمد لسنة 2024 – 2025 (ادعاء الموقع)",
+    "status": "unverified_third_party",
+    "note": "رفعها طرف ثالث على Google Drive؛ يجب مطابقة بصمة الملف أو صفحة الطبعة مع النسخة الرسمية."
+   }
+  },
+  {
+   "id": "b-english-sb",
+   "subjectId": "english",
+   "title": "English - Third Intermediate (Student's Book)",
+   "track": "عام",
+   "editionClaimed": "طبعة 2023 (حسب مصدر ثانوي)",
+   "url": "https://manahj.edu.iq/upload/upfile/ar/1560.pdf",
+   "mirror": {
+    "url": "https://drive.google.com/file/d/1uSftdLbI-UP100GMWbBDR1_kGf_tUCtd/view?usp=sharing",
+    "via": "https://iqeducational.com/كتب-الثالث-متوسط/",
+    "claimedEdition": "المعتمد لسنة 2024 – 2025 (ادعاء الموقع)",
+    "status": "unverified_third_party",
+    "note": "رفعها طرف ثالث على Google Drive؛ يجب مطابقة بصمة الملف أو صفحة الطبعة مع النسخة الرسمية."
+   }
+  },
+  {
+   "id": "b-english-ab",
+   "subjectId": "english",
+   "title": "English - Third Intermediate (Activity Book)",
+   "track": "عام",
+   "editionClaimed": "طبعة 2023 (حسب مصدر ثانوي)",
+   "url": "https://manahj.edu.iq/upload/upfile/ar/1561.pdf",
+   "mirror": {
+    "url": "https://drive.google.com/file/d/1yTNLafH-XWmTfR2cHA5MoscBZXdAf-ND/view?usp=sharing",
+    "via": "https://iqeducational.com/كتب-الثالث-متوسط/",
+    "claimedEdition": "المعتمد لسنة 2024 – 2025 (ادعاء الموقع)",
+    "status": "unverified_third_party",
+    "note": "رفعها طرف ثالث على Google Drive؛ يجب مطابقة بصمة الملف أو صفحة الطبعة مع النسخة الرسمية."
+   }
+  },
+  {
+   "id": "b-computer",
+   "subjectId": "computer",
+   "title": "الحاسوب - الثالث المتوسط",
+   "track": "عام",
+   "editionClaimed": "مُعلَّم «قريبًا» في المصدر الثانوي",
+   "url": "https://manahj.edu.iq/upload/upfile/ar/1424.pdf"
+  }
+ ],
+ "bookCommon": {
+  "grade": "الثالث المتوسط",
+  "schoolYear": "غير متحقق (القائمة الثانوية تقول 2023-2024؛ هل هي نفس طبعة 2025-2026؟ يجب التحقق من صفحة الطبعة داخل الملف)",
+  "publisher": "المديرية العامة للمناهج - وزارة التربية العراقية (بحسب النطاق manahj.edu.iq)",
+  "linkFoundVia": "https://www.almoalm.com/2023/10/blog-post_17.html",
+  "officialAnnouncement": "https://ina.iq/195285--.html",
+  "officialIndexPage": "https://manahj.edu.iq/index.php?name=Pages&op=page&pid=148",
+  "accessedAt": "2026-10-10",
+  "downloadStatus": "not_downloaded",
+  "downloadNote": "تعذّر الوصول من بيئة التطوير (رفض الوكيل + فشل أداة الجلب). لم يُتحقق من أن الرابط ما زال يعمل.",
+  "pageCount": null,
+  "sha256": null,
+  "extractionStatus": "not_started",
+  "verificationStatus": "unverified",
+  "rights": "مطبوع حكومي منشور للعموم على موقع المديرية للتنزيل المجاني. لم يُعثر على ترخيص صريح لإعادة النشر؛ لذلك لا يُعاد نشر ملفات PDF داخل التطبيق، ويُطلب من المستخدم تنزيلها من المصدر الرسمي."
+ },
+ "exams": {
+  "_comment": "لا يوجد في التطبيق أي سؤال وزاري حتى الآن. أوراق 2025 الدور الأول (6 مواد) استُلمت كصفحات محفوظة لكن صورها تالفة؛ تنتظر إعادة الرفع.",
+  "accessedAt": "2026-10-10",
+  "officialSourceFound": false,
+  "officialSourceNote": "لم يُعثر على صفحة رسمية لوزارة التربية أو المديرية العامة للتقويم والامتحانات تنشر أسئلة الثالث المتوسط. موقع epedu.gov.iq فُتح لكنه لا يحتوي قسمًا للأسئلة.",
+  "sources": [
+   {
+    "subjectId": "physics",
+    "year": 2025,
+    "round": "الدور الأول",
+    "url": "https://www.amsebehm2017.com/2025/06/2025_01699074504.html",
+    "format": "صور (5 صور JPG على blogger)",
+    "claimedOrigin": "تنسبها المدونة إلى اللجنة الدائمة للامتحانات الوزارية",
+    "status": "found_not_downloaded",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "physics",
+    "year": 2025,
+    "round": "الدور الأول",
+    "url": "https://mlazemna.com/sa25ph/",
+    "format": "غير معروف (تعذّر فتح الصفحة)",
+    "status": "found_not_opened",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "physics",
+    "year": 2025,
+    "round": "الدور الأول - المتميزين",
+    "url": "https://mlazemna.com/sz25phm/",
+    "format": "غير معروف",
+    "status": "found_not_opened",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "chemistry",
+    "year": 2025,
+    "round": "غير مذكور",
+    "url": "https://iraqiteacher.com/exam/40",
+    "format": "صفحة ملف",
+    "status": "found_not_downloaded",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "physics",
+    "year": 2025,
+    "round": "غير مذكور",
+    "url": "https://iraqiteacher.com/exam/41",
+    "format": "صفحة ملف",
+    "status": "found_not_downloaded",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "math",
+    "year": 2025,
+    "round": "غير مذكور",
+    "url": "https://iraqiteacher.com/exam/42",
+    "format": "صفحة ملف",
+    "status": "found_not_downloaded",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "social",
+    "year": 2025,
+    "round": "غير مذكور",
+    "url": "https://iraqiteacher.com/exam/43",
+    "format": "صفحة ملف",
+    "status": "found_not_downloaded",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "english",
+    "year": 2025,
+    "round": "غير مذكور",
+    "url": "https://iraqiteacher.com/exam/44",
+    "format": "صفحة ملف",
+    "status": "found_not_downloaded",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "biology",
+    "year": 2025,
+    "round": "غير مذكور",
+    "url": "https://iraqiteacher.com/exam/45",
+    "format": "صفحة ملف",
+    "status": "found_not_downloaded",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "arabic",
+    "year": 2025,
+    "round": "غير مذكور",
+    "url": "https://iraqiteacher.com/exam/46",
+    "format": "صفحة ملف",
+    "status": "found_not_downloaded",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "islamic",
+    "year": 2025,
+    "round": "غير مذكور",
+    "url": "https://iraqiteacher.com/exam/47",
+    "format": "صفحة ملف",
+    "status": "found_not_downloaded",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "math",
+    "year": 2024,
+    "round": "غير مذكور",
+    "url": "https://iraqiteacher.com/exam/51",
+    "format": "صفحة ملف",
+    "status": "found_not_downloaded",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "biology",
+    "year": 2024,
+    "round": "غير مذكور",
+    "url": "https://iraqiteacher.com/exam/52",
+    "format": "صفحة ملف",
+    "status": "found_not_downloaded",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "english",
+    "year": 2024,
+    "round": "غير مذكور",
+    "url": "https://iraqiteacher.com/exam/54",
+    "format": "صفحة ملف",
+    "status": "found_not_downloaded",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "chemistry",
+    "year": 2024,
+    "round": "غير مذكور",
+    "url": "https://iraqiteacher.com/exam/55",
+    "format": "صفحة ملف",
+    "status": "found_not_downloaded",
+    "rights": "غير معروف"
+   },
+   {
+    "subjectId": "physics",
+    "year": 2024,
+    "round": "غير مذكور",
+    "url": "https://iraqiteacher.com/exam/56",
+    "format": "صفحة ملف",
+    "status": "found_not_downloaded",
+    "rights": "غير معروف"
+   }
+  ],
+  "archiveIndexes": [
+   {
+    "url": "https://iraqiteacher.com/exams?id=9",
+    "note": "فهرس 20 ملفًا للثالث المتوسط (2024 و2025)، الدور غير مذكور"
+   },
+   {
+    "url": "https://al-taleem.somee.com/wasari/wsari3mut2025d1.html",
+    "note": "فهرس وزاريات 2025 الدور الأول (لم يُفتح)"
+   }
+  ],
+  "uploads": [
+   {
+    "subjectId": "english",
+    "claimedYear": 2025,
+    "claimedRound": "الدور الأول",
+    "claimedDate": "2025/5/22 (الخميس)",
+    "sourcePage": "https://mlazemna.com/sa25en/",
+    "receivedAs": "صفحة ويب محفوظة (.mhtml) رفعها المستخدم في 2026-10-10",
+    "status": "images_corrupted",
+    "note": "صورة ورقة الأسئلة داخل الملف تالفة (تحوّلت بايتاتها إلى U+FFFD أثناء الرفع). نص الصفحة لا يحوي الأسئلة بل تعليق الموقع وإحصاءاته، ولم يُنقل منه شيء. لم يُستخرج أي سؤال. السنة/الدور/التاريخ ادعاء صفحة طرف ثالث غير موثق.",
+    "needed": "رفع صورة الورقة (JPG/PNG) أو PDF، أو ملف .mhtml داخل ZIP"
+   },
+   {
+    "subjectId": "social",
+    "claimedYear": 2025,
+    "claimedRound": "الدور الأول",
+    "claimedDate": "2025/5/26 (الاثنين)",
+    "sourcePage": "https://mlazemna.com/sa25ga/",
+    "receivedAs": "صفحة ويب محفوظة (.mhtml) رفعها المستخدم في 2026-10-10",
+    "status": "images_corrupted",
+    "note": "صورة ورقة الأسئلة داخل الملف تالفة (تحوّلت بايتاتها إلى U+FFFD أثناء الرفع). نص الصفحة لا يحوي الأسئلة بل تعليق الموقع وإحصاءاته، ولم يُنقل منه شيء. لم يُستخرج أي سؤال. السنة/الدور/التاريخ ادعاء صفحة طرف ثالث غير موثق.",
+    "needed": "رفع صورة الورقة (JPG/PNG) أو PDF، أو ملف .mhtml داخل ZIP"
+   },
+   {
+    "subjectId": "islamic",
+    "claimedYear": 2025,
+    "claimedRound": "الدور الأول",
+    "claimedDate": "2025/5/20 (الثلاثاء) — ورقة مشتركة مع العربي حسب الصفحة",
+    "sourcePage": "https://mlazemna.com/sa25is3/",
+    "receivedAs": "صفحة ويب محفوظة (.mhtml) رفعها المستخدم في 2026-10-10",
+    "status": "images_corrupted",
+    "note": "صورة ورقة الأسئلة داخل الملف تالفة (تحوّلت بايتاتها إلى U+FFFD أثناء الرفع). نص الصفحة لا يحوي الأسئلة بل تعليق الموقع وإحصاءاته، ولم يُنقل منه شيء. لم يُستخرج أي سؤال. السنة/الدور/التاريخ ادعاء صفحة طرف ثالث غير موثق.",
+    "needed": "رفع صورة الورقة (JPG/PNG) أو PDF، أو ملف .mhtml داخل ZIP"
+   },
+   {
+    "subjectId": "arabic",
+    "claimedYear": 2025,
+    "claimedRound": "الدور الأول",
+    "claimedDate": "2025/5/20 (الثلاثاء) — ورقة مشتركة مع الإسلامية حسب الصفحة",
+    "sourcePage": "https://mlazemna.com/sa25ar3/",
+    "receivedAs": "صفحة ويب محفوظة (.mhtml) رفعها المستخدم في 2026-10-10",
+    "status": "images_corrupted",
+    "note": "صورة ورقة الأسئلة داخل الملف تالفة (تحوّلت بايتاتها إلى U+FFFD أثناء الرفع). نص الصفحة لا يحوي الأسئلة بل تعليق الموقع وإحصاءاته، ولم يُنقل منه شيء. لم يُستخرج أي سؤال. السنة/الدور/التاريخ ادعاء صفحة طرف ثالث غير موثق.",
+    "needed": "رفع صورة الورقة (JPG/PNG) أو PDF، أو ملف .mhtml داخل ZIP"
+   },
+   {
+    "subjectId": "chemistry",
+    "claimedYear": 2025,
+    "claimedRound": "الدور الأول",
+    "claimedDate": "2025/5/31 (السبت)",
+    "sourcePage": "https://mlazemna.com/sa25km/",
+    "receivedAs": "صفحة ويب محفوظة (.mhtml) رفعها المستخدم في 2026-10-10",
+    "status": "images_corrupted",
+    "note": "صورة ورقة الأسئلة داخل الملف تالفة (تحوّلت بايتاتها إلى U+FFFD أثناء الرفع). نص الصفحة لا يحوي الأسئلة بل تعليق الموقع وإحصاءاته، ولم يُنقل منه شيء. لم يُستخرج أي سؤال. السنة/الدور/التاريخ ادعاء صفحة طرف ثالث غير موثق.",
+    "needed": "رفع صورة الورقة (JPG/PNG) أو PDF، أو ملف .mhtml داخل ZIP"
+   },
+   {
+    "subjectId": "biology",
+    "claimedYear": 2025,
+    "claimedRound": "الدور الأول",
+    "claimedDate": "2025/5/28 (الأربعاء)",
+    "sourcePage": "https://mlazemna.com/sa25bi/",
+    "receivedAs": "صفحة ويب محفوظة (.mhtml) رفعها المستخدم في 2026-10-10",
+    "status": "images_corrupted",
+    "note": "صورة ورقة الأسئلة داخل الملف تالفة (تحوّلت بايتاتها إلى U+FFFD أثناء الرفع). نص الصفحة لا يحوي الأسئلة بل تعليق الموقع وإحصاءاته، ولم يُنقل منه شيء. لم يُستخرج أي سؤال. السنة/الدور/التاريخ ادعاء صفحة طرف ثالث غير موثق.",
+    "needed": "رفع صورة الورقة (JPG/PNG) أو PDF، أو ملف .mhtml داخل ZIP"
+   }
+  ]
+ },
+ "downloadAttempts": [
+  {
+   "at": "2026-10-10",
+   "tool": "shell curl عبر وكيل الشبكة",
+   "targets": [
+    "manahj.edu.iq",
+    "www.manahj.edu.iq",
+    "ina.iq",
+    "web.archive.org",
+    "drive.google.com",
+    "raw.githubusercontent.com"
+   ],
+   "result": "رفض CONNECT من وكيل الشبكة (403، سياسة المؤسسة)"
+  },
+  {
+   "at": "2026-10-10",
+   "tool": "WebFetch",
+   "targets": [
+    "https://manahj.edu.iq/",
+    "https://manahj.edu.iq/index.php?name=Pages&op=page&pid=148",
+    "http://www.manahj.edu.iq/index.php?name=Pages&op=page&pid=106",
+    "https://manahj.edu.iq/upload/upfile/ar/1433.pdf",
+    "http://manahj.edu.iq/upload/upfile/ar/1433.pdf"
+   ],
+   "result": "CLIENT_ERROR: error while fetching (الموقع لا يستجيب لأداة الجلب)"
+  },
+  {
+   "at": "2026-10-10",
+   "tool": "WebFetch",
+   "targets": [
+    "https://web.archive.org/web/2024/https://manahj.edu.iq/index.php?name=Pages&op=page&pid=148"
+   ],
+   "result": "SITE_BLOCKED"
+  },
+  {
+   "at": "2026-10-10",
+   "tool": "WebFetch",
+   "targets": [
+    "https://drive.google.com/file/d/1meu5_pAjObDOYJRomppycRWWsVL3uvBz/view"
+   ],
+   "result": "الصفحة فُتحت (اسم الملف: فيزياء ثالث متوسط.pdf) لكن المحتوى لا يُعرض دون تسجيل دخول/JavaScript، ولا تعطي الأداة الملف الثنائي"
+  },
+  {
+   "at": "2026-10-10",
+   "tool": "WebFetch",
+   "targets": [
+    "https://mlazemna.com/3thbook/",
+    "https://mlazemna.com/3thbkph1/",
+    "https://b3sc.haltaelam.com/"
+   ],
+   "result": "خطأ جلب / robots.txt يمنع"
+  },
+  {
+   "at": "2026-10-10",
+   "tool": "GitHub (gh)",
+   "targets": [
+    "search"
+   ],
+   "result": "الجلسة مقيدة بمستودعات محددة"
+  },
+  {
+   "at": "2026-10-10",
+   "tool": "متصفح مدمج / حاسوب المستخدم",
+   "targets": [],
+   "result": "غير متاح في هذه الجلسة"
+  }
+ ]
+}
